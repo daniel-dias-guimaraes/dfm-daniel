@@ -209,7 +209,8 @@ section.sobre .flex{
 
 .sobre .txt-sobre p{
     margin: 20px 0;
-    text-align: justify;
+    text-align: justifyS;
+
 }
 
 .btn-social button{
@@ -221,74 +222,6 @@ section.sobre .flex{
     font-size: 20px;
     color: #fff;
     margin: 0 7px;
-}
-
-/* ESTILO DO FORMULÁRIO DE CONTATO*/
-
-section.formulario{
-    padding: 40px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
-}
-
-form{
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
-    gap: 10px;
-    margin-top: 40px;
-    width: 420px;
-    background: #;
-
-
-}
-
-form input{
-    width: 100%;
-    background-color: #353535;
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: #fff;
-    font-size: 18px;
-
-}
-
-form input, form textarea{
-    width: 100%;
-    background-color: #353535;
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: #fff;
-    font-size: 18px;
-
-}
-
-form textarea{
-    resize: none;
-    max-height: 500px;
-
-}
-
-form .btn-enviar{
-    margin-top: 20px;
-    text-align: center;
-    
-}
-
-
-form .btn-enviar input{
-    width: 120px;
-    background-color: #1919d1;
-    color: #fff;
-    font-weight: 700 ;
-    cursor: pointer;
-    transition: .2s;
-
 }
 
 
