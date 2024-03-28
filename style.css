@@ -17,6 +17,16 @@ body{
 
     max-width: 1280px;
     margin: 0 auto;
+
+
+}
+
+.interface a h1{
+    background: linear-gradient(60deg, #1919d1,#1966d1,#19a6d1);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
 }
 
 .flex{
@@ -26,11 +36,10 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-variant: 600;
-    background-color: #1919d1;
     border: 0;
-    border-radius: 30px;
+    border-radius: 10px;
     cursor: pointer;
-    color: #fff;
+    background: linear-gradient(60deg, #1919d1,#1966d1,#19a6d1);
     transition: .2s;
 }
 button:hover, form .btn-enviar input:hover{
@@ -168,6 +177,7 @@ section.especialidades .flex{
 }
 
 
+
 /* estilo do sobre*/
 
 section.sobre{
@@ -191,8 +201,11 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    color: #1919d1;
-    display: block;
+    background: linear-gradient(90deg, #1919d1,#1966d1,#19a6d1);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
 }
 
 .sobre .txt-sobre p{
@@ -226,6 +239,9 @@ form{
     flex-direction: column; 
     gap: 10px;
     margin-top: 40px;
+    width: 420px;
+    background: #;
+
 
 }
 
@@ -276,6 +292,8 @@ form .btn-enviar input{
 
 }
 
+
+
 /* estilo do rodape*/
 
 footer{
@@ -307,3 +325,4 @@ footer .line-footer p i{
 footer .line-footer p a{
     color: #fff;
 }
+
