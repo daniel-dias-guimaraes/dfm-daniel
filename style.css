@@ -56,7 +56,17 @@ h2.titulo{
 }
 
 h2.titulo span{
-    color: #1919d1;
+    background: linear-gradient(60deg, #1919d1,#1966d1,#19a6d1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.txt-topo-site p span{
+    background: linear-gradient(60deg, #1919d1,#1966d1,#19a6d1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* estilo do cabeçalho */
@@ -116,16 +126,15 @@ section.topo-do-site.flex{
     line-height: 40px;
 }
 
-.topo-do-site h1 span{
-    color: #1919d1;
-}
+
 
 .topo-do-site .txt-topo-site p{
     color: #fff;
     margin: 65px 0px;
     font-size: 20px;
-    max-width: 60rem;
+    max-width: 50rem;
 }
+
 
 .topo-do-site .img-topo-site img{
     position: relative;
@@ -167,7 +176,10 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: #1919d1;
+    background: linear-gradient(60deg, #1919d1,#1966d1,#19a6d1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .especialidades .especialidades-box h3{
