@@ -270,3 +270,60 @@ footer .line-footer p a{
     color: #fff;
 }
 
+
+@media screen and (max-width:1020px){
+
+    /*classes gerais*/
+    .flex{
+        flex-direction: column;
+    }
+
+
+    /*cabeçalho*/
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+
+    /*topo do site*/
+    section..topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img{
+       width: 100%; 
+    }
+
+    /*especialidades*/
+    section.especialidades{
+        padding: 40px 8%;
+    }
+
+    /*sobre*/
+    section.sobre{
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .sobre .img-sobre img{
+        width: 100%;
+    }
+
+     /*rodapé*/
+     footer .flex{
+        flex-direction:row;
+     }
+
+     footer .line-footer{
+        text-align: center;
+     }
+}
